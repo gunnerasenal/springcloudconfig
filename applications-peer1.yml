@@ -1,7 +1,8 @@
 spring:
   application:
     name: spring-cloud-eureka
-  profiles: peer1
+  profiles:
+    active: peer1
 server:
   port: 8001
 eureka:
